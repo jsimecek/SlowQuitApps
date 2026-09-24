@@ -69,6 +69,10 @@ from the command line. To use this tool, the main app must first be given
 permissions to run.
 
 
+### Building from source
+
+See [BUILDING.md](BUILDING.md) for how to build, sign and install the app locally.
+
 ### Post-update Maintenance
 
 Unfortunately, after upgrading SQA, you will have to reset accessibility

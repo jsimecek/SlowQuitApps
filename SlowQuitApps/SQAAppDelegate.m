@@ -31,6 +31,9 @@
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    // LSUIElement apps are not activated on launch, so alerts would open behind other windows.
+    [NSApp activateIgnoringOtherApps:YES];
+
     SQADialogs *dialogs = [[SQADialogs alloc] init];
 
     if (!hasAccessibility()) {
